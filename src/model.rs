@@ -9,7 +9,7 @@ pub struct Transfer {
     pub usd_price: f64,
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
 pub struct UserStats {
     pub address: String,
     pub total_volume: f64,
